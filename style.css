@@ -369,12 +369,13 @@ footer h4{
         background: var(--background-color);
         position: fixed;
         top: 0;
-        left: 100%;
+        left:100%;
         flex-direction: column;
         align-items: center;
         transition: transform 1s ease;        
     }
     /* css burger
+
     .menu-check{
         display: block;
         position: absolute;
@@ -404,7 +405,7 @@ footer h4{
     */
 
     .nav-open{
-        transform: translate(-100%);        
+        transform: translateX(-100%);        
     }
 
     .toggle .line1{
